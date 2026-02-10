@@ -1,0 +1,77 @@
+[
+  {
+    "orderId": "ORD-2024-00157",
+    "customerId": 1,
+    "customerName": "Иван Петров",
+    "orderDate": "2024-03-15T14:30:22Z",
+    "status": "доставлен",
+    "deliveryAddress": {
+      "street": "ул. Ленина, д. 25, кв. 12",
+      "city": "Москва",
+      "postalCode": "101000",
+      "country": "Россия"
+    },
+    "items": [
+      {
+        "productId": "P-1001",
+        "productName": "Смартфон Galaxy S23",
+        "quantity": 1,
+        "unitPrice": 79990.00,
+        "subtotal": 79990.00
+      },
+      {
+        "productId": "P-1003",
+        "productName": "Беспроводные наушники",
+        "quantity": 1,
+        "unitPrice": 15990.00,
+        "subtotal": 15990.00
+      }
+    ],
+    "payment": {
+      "method": "credit_card",
+      "status": "paid",
+      "transactionId": "TX-789456123",
+      "totalAmount": 95980.00
+    },
+    "shipping": {
+      "method": "express",
+      "trackingNumber": "RU-789456123XYZ",
+      "estimatedDelivery": "2024-03-17",
+      "actualDelivery": "2024-03-16"
+    }
+  },
+  {
+    "orderId": "ORD-2024-00158",
+    "customerId": 4,
+    "customerName": "Мария Иванова",
+    "orderDate": "2024-03-16T09:15:10Z",
+    "status": "в обработке",
+    "deliveryAddress": {
+      "street": "пр. Победы, д. 10",
+      "city": "Санкт-Петербург",
+      "postalCode": "190000",
+      "country": "Россия"
+    },
+    "items": [
+      {
+        "productId": "P-1002",
+        "productName": "Ноутбук MacBook Air M2",
+        "quantity": 1,
+        "unitPrice": 119990.00,
+        "subtotal": 119990.00
+      }
+    ],
+    "payment": {
+      "method": "online_banking",
+      "status": "pending",
+      "transactionId": null,
+      "totalAmount": 119990.00
+    },
+    "shipping": {
+      "method": "standard",
+      "trackingNumber": null,
+      "estimatedDelivery": "2024-03-20",
+      "actualDelivery": null
+    }
+  }
+]

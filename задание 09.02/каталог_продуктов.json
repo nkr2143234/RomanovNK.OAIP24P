@@ -1,0 +1,55 @@
+[
+  {
+    "productId": "P-1001",
+    "name": "Смартфон Galaxy S23",
+    "category": "Электроника",
+    "brand": "Samsung",
+    "price": 79990.00,
+    "currency": "RUB",
+    "inStock": true,
+    "stockQuantity": 45,
+    "specifications": {
+      "display": "6.1 дюймов, Dynamic AMOLED",
+      "processor": "Snapdragon 8 Gen 2",
+      "ram": "8 ГБ",
+      "storage": "256 ГБ",
+      "battery": "3900 мАч"
+    },
+    "tags": ["смартфон", "android", "флагман", "2023"]
+  },
+  {
+    "productId": "P-1002",
+    "name": "Ноутбук MacBook Air M2",
+    "category": "Электроника",
+    "brand": "Apple",
+    "price": 119990.00,
+    "currency": "RUB",
+    "inStock": true,
+    "stockQuantity": 22,
+    "specifications": {
+      "display": "13.6 дюймов, Liquid Retina",
+      "processor": "Apple M2",
+      "ram": "8 ГБ",
+      "storage": "256 ГБ",
+      "battery": "до 18 часов"
+    },
+    "tags": ["ноутбук", "macbook", "apple", "ультрабук"]
+  },
+  {
+    "productId": "P-1003",
+    "name": "Беспроводные наушники",
+    "category": "Аксессуары",
+    "brand": "Sony",
+    "price": 15990.00,
+    "currency": "RUB",
+    "inStock": false,
+    "stockQuantity": 0,
+    "specifications": {
+      "type": "накладные",
+      "connectivity": "Bluetooth 5.0",
+      "batteryLife": "30 часов",
+      "noiseCancelling": true
+    },
+    "tags": ["наушники", "беспроводные", "шумодав"]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "username": "ivan_petrov",
+    "fullName": "Иван Петров",
+    "email": "ivan@example.com",
+    "age": 28,
+    "isActive": true,
+    "registrationDate": "2023-03-15",
+    "accountType": "premium"
+  },
+  {
+    "id": 2,
+    "username": "anna_sidorova",
+    "fullName": "Анна Сидорова",
+    "email": "anna@example.com",
+    "age": 32,
+    "isActive": true,
+    "registrationDate": "2022-11-08",
+    "accountType": "standard"
+  },
+  {
+    "id": 3,
+    "username": "alexey_kuznetsov",
+    "fullName": "Алексей Кузнецов",
+    "email": "alexey@example.com",
+    "age": 25,
+    "isActive": false,
+    "registrationDate": "2024-01-20",
+    "accountType": "trial"
+  },
+  {
+    "id": 4,
+    "username": "maria_ivanova",
+    "fullName": "Мария Иванова",
+    "email": "maria@example.com",
+    "age": 41,
+    "isActive": true,
+    "registrationDate": "2021-07-30",
+    "accountType": "premium"
+  }
+]
